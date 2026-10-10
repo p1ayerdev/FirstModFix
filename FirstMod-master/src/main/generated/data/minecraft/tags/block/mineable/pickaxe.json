@@ -1,0 +1,9 @@
+{
+  "values": [
+    "mymod:ruby_ore",
+    "mymod:ruby_block",
+    "mymod:sapphire_block",
+    "mymod:titanium_ore",
+    "mymod:titanium_block"
+  ]
+}
