@@ -31,6 +31,9 @@ public class ModBlocks {
     public static final Block TITANIUM_ORE = registerBlock("titanium_ore",
             properties -> new Block(properties.strength(5f)
                     .requiresCorrectToolForDrops().sound(SoundType.NETHER_BRICKS)));
+    public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            properties -> new Block(properties.strength(5f)
+                    .requiresCorrectToolForDrops().sound(SoundType.CALCITE)));
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MyMod.MOD_ID, name))));

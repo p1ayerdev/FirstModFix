@@ -1,5 +1,7 @@
 {
   "creativemodetab.mymod.gems": "Gems",
+  "creativemodetab.mymod.sweets": "Sweets",
+  "block.mymod.sapphire_ore": "Sapphire Ore",
   "item.mymod.sapphire": "Sapphire",
   "block.mymod.sapphire_block": "Sapphire Block",
   "block.mymod.ruby_ore": "Ruby Ore",
@@ -7,5 +9,7 @@
   "block.mymod.ruby_block": "Ruby Block",
   "block.mymod.titanium_ore": "Titanium Ore",
   "item.mymod.titanium_ingot": "Titanium Ingot",
-  "block.mymod.titanium_block": "Titanium Block"
+  "block.mymod.titanium_block": "Titanium Block",
+  "item.mymod.gulab_jamun": "Gulab Jamun",
+  "item.mymod.gummy_bear": "Gummy Bear"
 }

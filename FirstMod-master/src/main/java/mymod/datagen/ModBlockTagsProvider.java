@@ -22,10 +22,12 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.SAPPHIRE_BLOCK)
                 .add(ModBlocks.TITANIUM_ORE)
-                .add(ModBlocks.TITANIUM_BLOCK);
+                .add(ModBlocks.TITANIUM_BLOCK)
+                .add(ModBlocks.SAPPHIRE_ORE);
 
         valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.SAPPHIRE_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.SAPPHIRE_BLOCK);
 

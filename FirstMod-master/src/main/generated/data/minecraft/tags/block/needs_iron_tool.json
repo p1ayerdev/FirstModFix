@@ -1,6 +1,7 @@
 {
   "values": [
     "mymod:ruby_ore",
+    "mymod:sapphire_ore",
     "mymod:ruby_block",
     "mymod:sapphire_block"
   ]

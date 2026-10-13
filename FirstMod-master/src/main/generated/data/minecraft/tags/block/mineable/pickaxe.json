@@ -4,6 +4,7 @@
     "mymod:ruby_block",
     "mymod:sapphire_block",
     "mymod:titanium_ore",
-    "mymod:titanium_block"
+    "mymod:titanium_block",
+    "mymod:sapphire_ore"
   ]
 }

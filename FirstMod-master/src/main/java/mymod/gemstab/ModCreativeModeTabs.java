@@ -11,8 +11,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-import java.util.function.Supplier;
-
 public class ModCreativeModeTabs {
 
     public static final CreativeModeTab GEMS_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -28,13 +26,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.TITANIUM_ORE);
                         output.accept(CustomItems.TITANIUM_INGOT);
                         output.accept(ModBlocks.TITANIUM_BLOCK);
+                        output.accept(ModBlocks.SAPPHIRE_ORE);
 
 
                     }).build());
 
 
     public static void registerModCreativeModeTabs() {
-        MyMod.LOGGER.info("Registering Creative Mode Tabs for " + MyMod.MOD_ID);
+        MyMod.LOGGER.info("Registering Gem Items Tabs for " + MyMod.MOD_ID);
     }
 
 }

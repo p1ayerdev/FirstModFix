@@ -4,6 +4,7 @@ import mymod.block.ModBlocks;
 import mymod.datagen.ModBlockLootTableProvider;
 import mymod.gemstab.ModCreativeModeTabs;
 import mymod.item.CustomItems;
+import mymod.sweetstab.ModSweetCreativeTab;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -21,6 +22,7 @@ public class MyMod implements ModInitializer {
 		CustomItems.registerModItems();
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 		ModBlocks.registerModBlocks();
+		ModSweetCreativeTab.registerModCreativeModeTabs();
 	}
 
 	public static Identifier id(String path) {

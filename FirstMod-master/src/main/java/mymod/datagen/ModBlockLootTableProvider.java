@@ -24,5 +24,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.TITANIUM_ORE);
         dropSelf(ModBlocks.TITANIUM_BLOCK);
         add(ModBlocks.RUBY_ORE, createOreDrop(ModBlocks.RUBY_ORE, CustomItems.RUBY));
+        add(ModBlocks.SAPPHIRE_ORE, createOreDrop(ModBlocks.SAPPHIRE_ORE, CustomItems.SAPPHIRE));
     }
 }
